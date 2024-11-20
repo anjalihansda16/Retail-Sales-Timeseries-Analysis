@@ -2,11 +2,9 @@
 I work at **Insight Nexus**, a market research and consulting firm specializing in providing data-driven insights for businesses and startups. Recently, a clothing startup approached us to conduct a **time series analysis** of men’s and women’s clothing sales in the U.S. market. Their goal is to gain a deep understanding of market trends, seasonality, and consumer behavior to make informed decisions regarding their market entry.
 
 ## Key Responsibilities
-For this project, I assumed multiple roles to mimic a real-world scenario:
-1. **Data Engineer**: I set up an **ETL pipeline** using **Python** for data cleaning and loading, ensuring that the data was transformed into an analysis-ready format and stored in a **database**.
-2. **Data Analyst**: I performed **time series analysis** using **SQL** to extract and analyze the data, and used **Excel** to create **visualizations** to help identify trends, seasonality, and consumer behavior.
-3. **Data Team Lead**: I planned the project, took ownership of the business problem document, and managed task delegation between different roles involved in the project.
 
+1. ETL: I set up an **ETL pipeline** using **Python** for data cleaning and loading, ensuring that the data was transformed into an analysis-ready format and stored in a **database**.
+2. **Data Analysis**: I performed **time series analysis** using **SQL** to extract and analyze the data, and used **Excel** to create **visualizations** to help identify trends, seasonality, and consumer behavior.
 
 ### Repository Structure
 The repository is organized as follows:
@@ -35,6 +33,4 @@ The repository is organized as follows:
 1. Advanced machine learning techniques to forecast future sales trends.
 2. Integration with external datasets (e.g., economic indicators) to enhance the analysis.
 
-## Conclusion
-This project was a virtual initiative where I took on multiple responsibilities, simulating a real-world project. I setting up ETL pipelines, timeseries data analysis and planning a project to tackle the business problem.
 
