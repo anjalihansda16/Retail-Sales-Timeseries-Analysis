@@ -23,7 +23,6 @@ The clothing startup, **Trendline Apparel Co.**, seeks to gain deep insights int
 ## PROJECT PHASES & TASKS  
 
 ### **Phase 1: Data Collection & ETL**  
-**Timeline:** 2024-11-02 to 2024-11-08  
 
 - **Tasks:**  
   - Data analysts extract raw sales data from the U.S. Census Bureau.  
@@ -35,8 +34,7 @@ The clothing startup, **Trendline Apparel Co.**, seeks to gain deep insights int
 
 ---
 
-### **Phase 2: Data Analysis**  
-**Timeline:** 2024-11-09 to 2024-11-12  
+### **Phase 2: Data Analysis**   
 
 - **Tasks:**  
   - Data analysts review the cleaned dataset for quality and completeness.  
@@ -48,8 +46,7 @@ The clothing startup, **Trendline Apparel Co.**, seeks to gain deep insights int
 
 ---
 
-### **Phase 3: Visualization & Reporting**  
-**Timeline:** 2024-11-13 to 2024-11-19  
+### **Phase 3: Visualization & Reporting**   
 
 - **Tasks:**  
   - Data analysts create connections between SQL queries and visualization tools (Excel/Power BI).  
@@ -62,8 +59,7 @@ The clothing startup, **Trendline Apparel Co.**, seeks to gain deep insights int
 
 ---
 
-### **Phase 4: Internal Review**  
-**Timeline:** 2024-11-20 to 2024-11-21  
+### **Phase 4: Internal Review**    
 
 - **Tasks:**  
   - Final reviews of SQL scripts, analysis results, visualizations, and documentation to ensure alignment with client objectives.  
@@ -75,7 +71,6 @@ The clothing startup, **Trendline Apparel Co.**, seeks to gain deep insights int
 ---
 
 ### **Phase 5: Final Report & Presentation**  
-**Timeline:** 2024-11-22 to 2024-11-24  
 
 - **Tasks:**  
   - Finalize visualizations and prepare the PowerPoint presentation for Consulting Team.  
