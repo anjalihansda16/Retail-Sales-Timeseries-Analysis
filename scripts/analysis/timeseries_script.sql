@@ -11,6 +11,7 @@ from INFORMATION_SCHEMA.COLUMNS
 where TABLE_SCHEMA = 'clothing_business_sales'
 	and TABLE_NAME = 'unadjusted'
 
+
 /* Data Overview */
 select 
 	distinct kind_of_business,
@@ -33,6 +34,7 @@ select
 	max(sales_month)
 from clothing_business_sales.unadjusted
 where kind_of_business = 'Men''s clothing stores'
+
 
 /* Index the sales_month column */
 create CLUSTERED INDEX IX_IndexName
@@ -115,7 +117,7 @@ on c1.sales_year = c2.sales_year;
 
 /* Economic Impact Analysis */
 
--- Indexed Analysis
+-- Indexed Analysis: 2009
 select 
 	sales_year,
 	kind_of_business,
@@ -128,9 +130,12 @@ from
 		kind_of_business,
 		sum(sales) as sales
 	from clothing_business_sales.unadjusted
+	where year(sales_month) > 2008
 	group by year(sales_month), kind_of_business
 	) as a;
-    
+
+
+
 -- Rolling time window YTD Moving averages for the monthly reatail sales without seasonality 
 select
 	s.sales_month,
@@ -170,7 +175,8 @@ select
     sales_month, 
     sales, 
     (sales/lag(sales) over(partition by kind_of_business order by sales_month) - 1) * 100 as pct_growth_from_prev_month
-from clothing_business_sales.unadjusted;
+from clothing_business_sales.unadjusted
+where sales_month > '2015-11-01 00:00:00.000';
 
 /*/* YoY */*/
 select 
@@ -237,4 +243,6 @@ from clothing_business_sales.unadjusted
 where kind_of_business = 'Women''s clothing stores'
 and year(sales_month) between 2015 and 2020
 group by month(sales_month), format(sales_month, 'MMMM');
+
+
 
