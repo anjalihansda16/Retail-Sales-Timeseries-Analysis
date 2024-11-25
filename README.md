@@ -1,5 +1,5 @@
 ## Project Overview
-I work at **Insight Nexus**, a market research and consulting firm specializing in providing data-driven insights for businesses and startups. Recently, a clothing startup approached us to conduct a **time series analysis** of men’s and women’s clothing sales in the U.S. market. Their goal is to gain a deep understanding of market trends, seasonality, and consumer behavior to make informed decisions regarding their market entry.
+I am a Data Analyst, working at **Orion Strategy**, a market research and consulting firm specializing in providing data-driven insights for businesses and startups. Recently, a clothing startup approached us to conduct a **time series analysis** of men’s and women’s clothing sales in the U.S. market. Their goal is to gain a deep understanding of market trends, seasonality, and consumer behavior to make informed decisions regarding their market entry.
 
 ## Key Responsibilities
 
