@@ -3,7 +3,7 @@ I am a Data Analyst, working at **Orion Strategy**, a market research and consul
 
 ## Key Responsibilities
 
-1. ETL: I set up an **ETL pipeline** using **Python** for data cleaning and loading, ensuring that the data was transformed into an analysis-ready format and stored in a **database**.
+1. **ETL**: I set up an **ETL pipeline** using **Python** for data cleaning and loading, ensuring that the data was transformed into an analysis-ready format and stored in a **database**.
 2. **Data Analysis**: I performed **time series analysis** using **SQL** to extract and analyze the data, and used **Excel** to create **visualizations** to help identify trends, seasonality, and consumer behavior.
 
 ## Data
